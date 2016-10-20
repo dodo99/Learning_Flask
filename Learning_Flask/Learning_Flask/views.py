@@ -5,6 +5,8 @@ Routes and views for the flask application.
 from datetime import datetime
 from flask import render_template
 from Learning_Flask import app
+from Learning_Flask.forms import SignupForm
+
 
 @app.route('/')
 @app.route('/home')
@@ -35,3 +37,11 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
+
+@app.route('/signup')
+def signup():
+    form = SignupForm()
+    return render_template(
+        'signup.html',
+        form=form
+    )   

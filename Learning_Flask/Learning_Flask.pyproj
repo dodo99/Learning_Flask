@@ -31,6 +31,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Learning_Flask\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Learning_Flask\models.py">
       <SubType>Code</SubType>
     </Compile>
@@ -52,6 +55,7 @@
   <ItemGroup>
     <Content Include="Learning_Flask\static\css\main.css" />
     <Content Include="Learning_Flask\static\img\device.png" />
+    <Content Include="Learning_Flask\templates\signup.html" />
     <Content Include="requirements.txt" />
     <Content Include="Learning_Flask\static\content\bootstrap.css" />
     <Content Include="Learning_Flask\static\content\bootstrap.min.css" />
