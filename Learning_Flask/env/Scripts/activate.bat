@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=D:\Documents\Visual Studio 2015\Projects\Learning_Flask\Learning_Flask\env"
+set "VIRTUAL_ENV=D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

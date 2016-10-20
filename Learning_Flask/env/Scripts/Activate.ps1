@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="D:\Documents\Visual Studio 2015\Projects\Learning_Flask\Learning_Flask\env"
+$env:VIRTUAL_ENV="D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env"
 
 # Set the prompt to include the env name
 # Make sure _OLD_VIRTUAL_PROMPT is global
