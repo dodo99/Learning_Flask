@@ -18,7 +18,7 @@
     <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
     <Name>Learning_Flask</Name>
     <RootNamespace>Learning_Flask</RootNamespace>
-    <InterpreterId>{7a87688a-176d-4d46-9bbe-2fbb0e7e0ca4}</InterpreterId>
+    <InterpreterId>{6773a79b-c114-4345-a3c6-639acca560bc}</InterpreterId>
     <InterpreterVersion>3.4</InterpreterVersion>
     <NameOfLastUsedPublishProfile>c3eb52fc-0ee0-4-231-b9ee - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
-      <Id>{7a87688a-176d-4d46-9bbe-2fbb0e7e0ca4}</Id>
+      <Id>{6773a79b-c114-4345-a3c6-639acca560bc}</Id>
       <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
       <Version>3.4</Version>
       <Description>env (Python 3.4)</Description>

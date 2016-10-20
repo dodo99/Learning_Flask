@@ -4,12 +4,9 @@ This script runs the Learning_Flask application using a development server.
 
 from os import environ
 from Learning_Flask import app
-from Learning_Flask.models import db
 from Learning_Flask.forms import SignupForm
 
-
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/learningflask'
-db.init_app(app)
 
 app.secret_key = 'development-key'
 
