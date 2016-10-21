@@ -12,5 +12,5 @@ class SignupForm(Form):
 class LoginForm(Form):
     email = StringField('Email', validators=[DataRequired('Please enter your email address.'), Email('Please enter your email address.')])
     password = PasswordField('Password', validators=[DataRequired('Please enter a password.')])
-    submit = SubmitField('Sign up')
+    submit = SubmitField('Sign in')
   
