@@ -3,7 +3,9 @@ from flask_sqlalchemy import SQLAlchemy
 from werkzeug import generate_password_hash, check_password_hash
 
 import geocoder
-import urllib3
+#import urllib2     won't work in Python 3
+from urllib.request import urlopen  #for python 3
+from urllib.parse import urljoin    #for python 3
 import json
 
 db = SQLAlchemy()
@@ -28,15 +30,17 @@ class User(db.Model):
     def check_password(self, password):
         return check_password_hash(self.pwdhash, password)
 
-# p = Place()
-# places = p.query("1600 Amphitheater Parkway Mountain View CA")
+
 class Place(object):
     def meters_to_walking_time(self, meters):
         # 80 meters is one minute walking time
         return int(meters / 80)  
 
     def wiki_path(self, slug):
-        return urllib3.urlparse.urljoin("http://en.wikipedia.org/wiki/", slug.replace(' ', '_'))
+        #python 2 code, not working in python 3
+        #return urllib2.urlparse.urljoin("http://en.wikipedia.org/wiki/", slug.replace(' ', '_'))
+        #python 3 code
+        return urljoin("http://en.wikipedia.org/wiki/", slug.replace(' ', '_'))
   
     def address_to_latlng(self, address):
         g = geocoder.google(address)
@@ -46,8 +50,13 @@ class Place(object):
         lat, lng = self.address_to_latlng(address)
     
         query_url = 'https://en.wikipedia.org/w/api.php?action=query&list=geosearch&gsradius=5000&gscoord={0}%7C{1}&gslimit=20&format=json'.format(lat, lng)
-        g = urllib2.urlopen(query_url)
-        results = g.read()
+        #python 2 code, not working in python 3
+        #g = urllib2.urlopen(query_url)
+        #results = g.read()
+
+        #python 3 code
+        g = urlopen(query_url)
+        results = g.read().decode('utf-8')
         g.close()
 
         data = json.loads(results)
