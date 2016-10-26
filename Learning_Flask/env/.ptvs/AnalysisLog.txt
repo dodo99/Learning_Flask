@@ -7427,3 +7427,149 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Micro
 2016-10-21T08:38:34: [WARNING] Library was set explicitly - skipping path detection
 2016-10-21T08:38:34: IncludeModulesFromModulePath = win32com
 2016-10-21T08:38:34: Deleting 0 files
+
+2016-10-21T14:15:38: Start analysis
+2016-10-21T14:15:38: [WARNING] Library was set explicitly - skipping path detection
+2016-10-21T14:15:38: IncludeModulesFromModulePath = win32com
+2016-10-21T14:15:39: Deleting 0 files
+2016-10-21T14:15:39: astropy.CallDepth = 0
+2016-10-21T14:15:39: matplotlib.CallDepth = 3
+2016-10-21T14:15:39: pandas.CallDepth = 0
+2016-10-21T14:15:39: sympy.CallDepth = 0
+2016-10-21T14:15:39: Start group "D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn" with 44 files
+2016-10-21T14:15:39: Parsing "gunicorn.arbiter" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\arbiter.py")
+2016-10-21T14:15:39: Parsing "gunicorn.argparse_compat" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\argparse_compat.py")
+2016-10-21T14:15:39: Parsing "gunicorn.config" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\config.py")
+2016-10-21T14:15:39: Parsing "gunicorn.debug" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\debug.py")
+2016-10-21T14:15:39: Parsing "gunicorn.errors" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\errors.py")
+2016-10-21T14:15:39: Parsing "gunicorn.glogging" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\glogging.py")
+2016-10-21T14:15:39: Parsing "gunicorn.pidfile" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\pidfile.py")
+2016-10-21T14:15:39: Parsing "gunicorn.reloader" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\reloader.py")
+2016-10-21T14:15:39: Parsing "gunicorn.selectors" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\selectors.py")
+2016-10-21T14:15:39: Parsing "gunicorn.six" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\six.py")
+2016-10-21T14:15:39: Parsing "gunicorn.sock" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\sock.py")
+2016-10-21T14:15:39: Parsing "gunicorn.util" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\util.py")
+2016-10-21T14:15:39: Parsing "gunicorn._compat" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\_compat.py")
+2016-10-21T14:15:39: Parsing "gunicorn" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\__init__.py")
+2016-10-21T14:15:39: Parsing "gunicorn.app.base" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\app\base.py")
+2016-10-21T14:15:39: Parsing "gunicorn.app.djangoapp" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\app\djangoapp.py")
+2016-10-21T14:15:39: Parsing "gunicorn.app.django_wsgi" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\app\django_wsgi.py")
+2016-10-21T14:15:39: Parsing "gunicorn.app.pasterapp" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\app\pasterapp.py")
+2016-10-21T14:15:39: Parsing "gunicorn.app.wsgiapp" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\app\wsgiapp.py")
+2016-10-21T14:15:39: Parsing "gunicorn.app" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\app\__init__.py")
+2016-10-21T14:15:39: Parsing "gunicorn.http.body" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\http\body.py")
+2016-10-21T14:15:39: Parsing "gunicorn.http.errors" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\http\errors.py")
+2016-10-21T14:15:39: Parsing "gunicorn.http.message" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\http\message.py")
+2016-10-21T14:15:39: Parsing "gunicorn.http.parser" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\http\parser.py")
+2016-10-21T14:15:39: Parsing "gunicorn.http.unreader" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\http\unreader.py")
+2016-10-21T14:15:39: Parsing "gunicorn.http.wsgi" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\http\wsgi.py")
+2016-10-21T14:15:39: Parsing "gunicorn.http._sendfile" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\http\_sendfile.py")
+2016-10-21T14:15:39: Parsing "gunicorn.http" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\http\__init__.py")
+2016-10-21T14:15:39: Parsing "gunicorn.instrument.statsd" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\instrument\statsd.py")
+2016-10-21T14:15:39: Parsing "gunicorn.instrument" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\instrument\__init__.py")
+2016-10-21T14:15:39: Parsing "gunicorn.management" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\management\__init__.py")
+2016-10-21T14:15:39: Parsing "gunicorn.management.commands.run_gunicorn" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\management\commands\run_gunicorn.py")
+2016-10-21T14:15:39: Parsing "gunicorn.management.commands" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\management\commands\__init__.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.async" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\async.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.base" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\base.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.gaiohttp" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\gaiohttp.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.geventlet" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\geventlet.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.ggevent" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\ggevent.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.gthread" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\gthread.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.gtornado" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\gtornado.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.sync" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\sync.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers.workertmp" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\workertmp.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers._gaiohttp" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\_gaiohttp.py")
+2016-10-21T14:15:39: Parsing "gunicorn.workers" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn\workers\__init__.py")
+2016-10-21T14:15:39: Parsing complete
+2016-10-21T14:15:39: Analyzing "gunicorn.arbiter"
+2016-10-21T14:15:39: Analyzing "gunicorn.argparse_compat"
+2016-10-21T14:15:39: Analyzing "gunicorn.config"
+2016-10-21T14:15:39: Analyzing "gunicorn.debug"
+2016-10-21T14:15:39: Analyzing "gunicorn.errors"
+2016-10-21T14:15:39: Analyzing "gunicorn.glogging"
+2016-10-21T14:15:39: Analyzing "gunicorn.pidfile"
+2016-10-21T14:15:39: Analyzing "gunicorn.reloader"
+2016-10-21T14:15:39: Analyzing "gunicorn.selectors"
+2016-10-21T14:15:39: Analyzing "gunicorn.six"
+2016-10-21T14:15:39: Analyzing "gunicorn.sock"
+2016-10-21T14:15:39: Analyzing "gunicorn.util"
+2016-10-21T14:15:39: Analyzing "gunicorn._compat"
+2016-10-21T14:15:39: Analyzing "gunicorn"
+2016-10-21T14:15:39: Analyzing "gunicorn.app.base"
+2016-10-21T14:15:39: Analyzing "gunicorn.app.djangoapp"
+2016-10-21T14:15:39: Analyzing "gunicorn.app.django_wsgi"
+2016-10-21T14:15:39: Analyzing "gunicorn.app.pasterapp"
+2016-10-21T14:15:39: Analyzing "gunicorn.app.wsgiapp"
+2016-10-21T14:15:39: Analyzing "gunicorn.app"
+2016-10-21T14:15:39: Analyzing "gunicorn.http.body"
+2016-10-21T14:15:39: Analyzing "gunicorn.http.errors"
+2016-10-21T14:15:39: Analyzing "gunicorn.http.message"
+2016-10-21T14:15:39: Analyzing "gunicorn.http.parser"
+2016-10-21T14:15:39: Analyzing "gunicorn.http.unreader"
+2016-10-21T14:15:39: Analyzing "gunicorn.http.wsgi"
+2016-10-21T14:15:39: Analyzing "gunicorn.http._sendfile"
+2016-10-21T14:15:39: Analyzing "gunicorn.http"
+2016-10-21T14:15:39: Analyzing "gunicorn.instrument.statsd"
+2016-10-21T14:15:39: Analyzing "gunicorn.instrument"
+2016-10-21T14:15:39: Analyzing "gunicorn.management"
+2016-10-21T14:15:39: Analyzing "gunicorn.management.commands.run_gunicorn"
+2016-10-21T14:15:39: Analyzing "gunicorn.management.commands"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.async"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.base"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.gaiohttp"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.geventlet"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.ggevent"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.gthread"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.gtornado"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.sync"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers.workertmp"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers._gaiohttp"
+2016-10-21T14:15:39: Analyzing "gunicorn.workers"
+2016-10-21T14:15:39: Starting analysis of 44 modules
+2016-10-21T14:15:44: Analysis complete
+2016-10-21T14:15:44: Saving group "D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn"
+2016-10-21T14:15:45: End of group "D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\gunicorn"
+2016-10-21T14:15:45: Deleting 0 files
+
+2016-10-23T18:05:52: Start analysis
+2016-10-23T18:05:52: [WARNING] Library was set explicitly - skipping path detection
+2016-10-23T18:05:52: IncludeModulesFromModulePath = win32com
+2016-10-23T18:05:52: Deleting 0 files
+2016-10-23T18:05:52: astropy.CallDepth = 0
+2016-10-23T18:05:52: matplotlib.CallDepth = 3
+2016-10-23T18:05:52: pandas.CallDepth = 0
+2016-10-23T18:05:52: sympy.CallDepth = 0
+2016-10-23T18:05:52: Start group "D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip" with 13 files
+2016-10-23T18:05:52: Parsing "pip.commands.download" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\commands\download.py")
+2016-10-23T18:05:52: Parsing "pip.commands.hash" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\commands\hash.py")
+2016-10-23T18:05:52: Parsing "pip.compat.ordereddict" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\compat\ordereddict.py")
+2016-10-23T18:05:52: Parsing "pip.utils.encoding" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\utils\encoding.py")
+2016-10-23T18:05:52: Parsing "pip.utils.hashes" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\utils\hashes.py")
+2016-10-23T18:05:52: Parsing "pip.utils.setuptools_build" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\utils\setuptools_build.py")
+2016-10-23T18:05:52: Parsing "pip._vendor.pyparsing" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\_vendor\pyparsing.py")
+2016-10-23T18:05:52: Parsing "pip._vendor.cachecontrol._cmd" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\_vendor\cachecontrol\_cmd.py")
+2016-10-23T18:05:52: Parsing "pip._vendor.packaging.markers" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\_vendor\packaging\markers.py")
+2016-10-23T18:05:52: Parsing "pip._vendor.packaging.requirements" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\_vendor\packaging\requirements.py")
+2016-10-23T18:05:52: Parsing "pip._vendor.packaging.utils" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\_vendor\packaging\utils.py")
+2016-10-23T18:05:52: Parsing "pip._vendor.requests.packages.urllib3.contrib.appengine" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\_vendor\requests\packages\urllib3\contrib\appengine.py")
+2016-10-23T18:05:52: Parsing "pip._vendor.requests.packages.urllib3.contrib.socks" ("D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip\_vendor\requests\packages\urllib3\contrib\socks.py")
+2016-10-23T18:05:52: Parsing complete
+2016-10-23T18:05:52: Analyzing "pip.commands.download"
+2016-10-23T18:05:52: Analyzing "pip.commands.hash"
+2016-10-23T18:05:52: Analyzing "pip.compat.ordereddict"
+2016-10-23T18:05:52: Analyzing "pip.utils.encoding"
+2016-10-23T18:05:52: Analyzing "pip.utils.hashes"
+2016-10-23T18:05:52: Analyzing "pip.utils.setuptools_build"
+2016-10-23T18:05:52: Analyzing "pip._vendor.pyparsing"
+2016-10-23T18:05:52: Analyzing "pip._vendor.cachecontrol._cmd"
+2016-10-23T18:05:52: Analyzing "pip._vendor.packaging.markers"
+2016-10-23T18:05:52: Analyzing "pip._vendor.packaging.requirements"
+2016-10-23T18:05:52: Analyzing "pip._vendor.packaging.utils"
+2016-10-23T18:05:52: Analyzing "pip._vendor.requests.packages.urllib3.contrib.appengine"
+2016-10-23T18:05:52: Analyzing "pip._vendor.requests.packages.urllib3.contrib.socks"
+2016-10-23T18:05:52: Starting analysis of 13 modules
+2016-10-23T18:05:59: Analysis complete
+2016-10-23T18:05:59: Saving group "D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip"
+2016-10-23T18:05:59: End of group "D:\Documents\GitHub\PY\Learning_Flask\Learning_Flask\env\Lib\site-packages\pip-8.1.2-py3.4.egg\pip"
+2016-10-23T18:05:59: Deleting 0 files
