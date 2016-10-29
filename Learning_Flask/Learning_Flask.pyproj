@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Learning_Flask\" />
+    <Folder Include="Learning_Flask\SQL\" />
     <Folder Include="Learning_Flask\static\" />
     <Folder Include="Learning_Flask\static\content\" />
     <Folder Include="Learning_Flask\static\fonts\" />
@@ -54,7 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Learning_Flask\Procfile" />
+    <Content Include="Learning_Flask\SQL\create_users_table.sql" />
     <Content Include="Learning_Flask\static\css\main.css" />
+    <Content Include="Learning_Flask\static\favicon.ico" />
     <Content Include="Learning_Flask\static\img\device.png" />
     <Content Include="Learning_Flask\templates\home.html" />
     <Content Include="Learning_Flask\templates\login.html" />
