@@ -6,7 +6,7 @@ from os import environ
 from Learning_Flask import app
 from Learning_Flask.forms import SignupForm
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/learningflask'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:3622@localhost:5432/learningflask'
 
 app.secret_key = 'development-key'
 
